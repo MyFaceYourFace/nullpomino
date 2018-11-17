@@ -50,15 +50,17 @@ public class GradeMania3Mode extends AbstractMode {
 	private static final int CURRENT_VERSION = 2;
 
 	/** Section COOL criteria Time */
+	/** Old Settings 3120, 3120, 2940, 2700, 2700, 2520, 2520, 2280, 2280, 0 */
 	private static final int[] tableTimeCool =
 	{
-		3120, 3120, 2940, 2700, 2700, 2520, 2520, 2280, 2280, 0
+		5400, 4500, 4500, 4080, 3600, 3600, 3000, 3000, 3000, 0
 	};
 
 	/** Section REGRET criteria Time */
+	/** Old Settings 5400, 4500, 4500, 4080, 3600, 3600, 3000, 3000, 3000, 3000 */
 	private static final int[] tableTimeRegret =
 	{
-		5400, 4500, 4500, 4080, 3600, 3600, 3000, 3000, 3000, 3000
+		9000, 8100, 8100, 7200, 7200, 7200, 6000, 6000, 6000, 5400
 	};
 
 	/** Fall velocity table */
